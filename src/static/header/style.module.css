@@ -1,0 +1,20 @@
+.header {
+    border-bottom-left-radius: 1.67rem;
+    border-bottom-right-radius: 1.67rem;
+    left: 0;
+    right: 0;
+    padding: .83rem 2rem 1.25rem 0;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+    background: #171743;
+    display: flex;
+    align-items: center;
+    img{
+        max-width: 180px;
+    }
+    .text {
+        font-size: 24px;
+        color: white;
+    }
+}

@@ -1,0 +1,18 @@
+@import "tailwindcss";
+@import "./styles/moon-css.css";
+@import "@heathmont/moon-themes-tw/lib/moon.css";
+
+.wrapper {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+
+    @supports (overflow: clip) {
+        overflow: clip;
+    }
+
+    & > main {
+        flex: 1 1 auto;
+    }
+}
