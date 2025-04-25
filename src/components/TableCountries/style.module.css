@@ -1,0 +1,11 @@
+.wrapper{
+    position: relative;
+}
+
+.box{
+    position: absolute;
+    font-size: 30px;
+    top: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+}
